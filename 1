@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Введите целое число а");
+        int a=in.nextInt();
+
+        Scanner q =new Scanner(System.in);
+        System.out.print("Введите целое число b");
+        int b=q.nextInt();
+
+        if (a%b==0){
+            System.out.print("True"+" "+a/b);
+        }
+        else {
+            System.out.print("False"+" "+ a/b +" "+ a%b);
+        }
+    }
+}
